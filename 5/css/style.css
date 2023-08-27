@@ -1,0 +1,30 @@
+/* css selection */
+
+
+/*li:first-child {
+    color:green;
+}
+
+li:last-child{
+    color:aqua; 
+
+.color-blue.fw-normal {
+    color:blue;
+    font-weight: normal;
+}
+
+li:nth-child(2) {
+    color: rebeccapurple;
+
+
+li:nth-child(even) {
+    color:brown */ 
+
+li:nth-child(odd) {
+    color:palevioletred
+}
+
+li:nth-child(2n-1) {
+    color: red;
+}
+
