@@ -24,7 +24,3 @@ li:nth-child(odd) {
     color:palevioletred
 }
 
-li:nth-child(2n-1) {
-    color: red;
-}
-
