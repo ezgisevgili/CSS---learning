@@ -58,3 +58,20 @@ body {
     background-color: yellow;
  }
 
+.gradient {
+    color: black;
+    background-color: pink;
+    border-radius: 25px;
+   
+
+
+}  
+ .btn {
+    background-color: linear-gradient (90 deg,rgba(rgb(202, 102, 102), green, blue, alpha), rgba(red, green, blue, alpha));
+    padding:10px 20px;
+    color:white;
+    font-size: 15px;
+    text-decoration: none;
+   
+
+}
