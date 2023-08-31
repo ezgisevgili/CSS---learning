@@ -1,130 +1,71 @@
-
-
-div { background-color: green;}
-
-div.first {
-    opacity: 0,1;
+/* h1 {
+    text-align: center; */
 }
 
-div.second { opacity: 0.3;
+h2 {
+    text-align: left;
 }
-
-p.dotted {
-    border-style:dotted
+/* h3 {
+    text-align: right; */
 }
-p.dashed {
-    border-style: dashed
-}
-p.solid {
-    border-style:solid
-}
-p.double {
-    border-style: double;
-    border-color: chartreuse;
-}
-p.groove {
-    border-style: groove;
-}
-p.ridge {
-    border-style:ridge;
-}
-
-p.outset {
-    border-style: outset;
-    border-color:red
-}
-
-p.none {
-    border-style: none;
-}
-p.hidden {
-    border-style: hidden;
-}
-p.mix {
-    border-style:dotted dashed solid double;
-    border-color:blue;
-    padding: 5px;
-    border-radius: 5px;
-
-
-}
-
-p.one {
-    border-top-style: ;
-    border-right-style: solid;
-    border-bottom-style: dotted;
-    border-left-style: solid;
-    
-}
-p.two {
-    border-style: dotted solid;
-    border-width: medium;
-    border-color:deeppink
-}
-p.three {
-    border-style: dotted;
-    border-width: 15px;
-    border-bottom: 6px solid blueviolet;
-    background-color: aqua;
-}
-
-p.four {
-    border-style: dotted;
-    border-width: thick;
-    border-color:red green blue yellow ;
-}
-
-p.five {
-    border-style: double;
-    border-width:15px ;
-    border-left: 6px solid red;
-    background-color: lightgreen;
-}
-
-p.six {
-    border-style: double;
-    border-width: thick;
-    border-color:#bbbb
-}
-p.seven {
-    border-style: solid;
-    border-width: 5px 20px;
-}
-p.eight {
-    border-style: solid;
-    border-width: 20px 5px;
-    border-color:yellow;
-    border-radius: 12px;;
-}
-
-.box { border: 1px solid black;
-    margin: bottom 100px;
-    margin-right: 150px;
-    margin-left:80px;
-    background-color: lightblue;
-    }
-.box2 {
+div {
     border:1px solid black;
-    margin: 25px 50px 75px 100px;
-    background-color: chocolate;
+    padding; 5px;
+    width: 20 px;
+    height: 20 px;
+    text-align: center;}
+
+p.a { text-align: right;
 }
-.box3 {
-    border: 5px solid;
-    margin: auto;
-    background-color:pink
+p.b { text-align:center;
 }
-.box4 {
-    border: 1px solid purple;
-    margin-left:100px;
-    background-color: coral;
-}
-p.box4 {
-    margin-left: inherit
+p.c { text-align-last:justify ;
 
 }
-.kutu {
-    background-color: lightgrey;
-    width: 300px ;
-    border:15px solid green;
-    padding: 50px;
-    margin: 20px; }
+img.a {
+    vertical-align: baseline;
+}
+img.b {
+    vertical-align:text-top;
+}
+img.c{
+    vertical-align:text-bottom
+}
+img.d {
+    vertical-align: sub;
+}
+h3 { text-decoration-line:  overline;
+    text-decoration-color:red
+
+}
+h4 {
+    text-decoration: line-through;
+    text-decoration-color: blueviolet;
+}
+h5 {
+    text-decoration: underline;
+    text-decoration-color: chartreuse;
+}
+p.ex {
+    text-decoration: overline underline;
+}
+h1 {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+.ed {
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+
+h6 {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-thickness: ;
+}
+p.ex2 {
+  text-decoration-line: underline;
+  text-decoration-style:wavy ;
+  text-decoration-color: red;
+}
+
