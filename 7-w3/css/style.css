@@ -1,19 +1,19 @@
 /* h1 {
     text-align: center; */
-}
+
 
 h2 {
     text-align: left;
 }
 /* h3 {
     text-align: right; */
-}
+
 div {
     border:1px solid black;
-    padding; 5px;
-    width: 20 px;
-    height: 20 px;
-    text-align: center;}
+    padding 5 px;
+    width:20 px;
+    height 20 px;
+    text-align center;}
 
 p.a { text-align: right;
 }
@@ -64,8 +64,8 @@ h6 {
     text-decoration-thickness: ;
 }
 p.ex2 {
-  text-decoration-line: underline;
-  text-decoration-style:wavy ;
-  text-decoration-color: red;
+text-decoration-line: underline;
+text-decoration-style:wavy ;
+text-decoration-color: red;
 }
 
