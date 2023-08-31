@@ -6,8 +6,7 @@ div.first {
     opacity: 0,1;
 }
 
-div.second {
-    0.3
+div.second { opacity: 0.3;
 }
 
 p.dotted {
@@ -58,7 +57,7 @@ p.one {
     
 }
 p.two {
-    border-style: dotted solid
+    border-style: dotted solid;
     border-width: medium;
     border-color:deeppink
 }
@@ -97,3 +96,35 @@ p.eight {
     border-color:yellow;
     border-radius: 12px;;
 }
+
+.box { border: 1px solid black;
+    margin: bottom 100px;
+    margin-right: 150px;
+    margin-left:80px;
+    background-color: lightblue;
+    }
+.box2 {
+    border:1px solid black;
+    margin: 25px 50px 75px 100px;
+    background-color: chocolate;
+}
+.box3 {
+    border: 5px solid;
+    margin: auto;
+    background-color:pink
+}
+.box4 {
+    border: 1px solid purple;
+    margin-left:100px;
+    background-color: coral;
+}
+p.box4 {
+    margin-left: inherit
+
+}
+.kutu {
+    background-color: lightgrey;
+    width: 300px ;
+    border:15px solid green;
+    padding: 50px;
+    margin: 20px; }
