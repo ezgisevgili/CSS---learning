@@ -1,34 +1,39 @@
 
-/*sırasız listede daire yapmak */
+/*sırasız listede daire yapmak 
 
 ul.a { list-style-type: circle;
 
-}
+}*/
 
-/* sırasır listede kare yapmak */
+/* sırasır listede kare yapmak 
 
 ul.b { list-style-type: square;}
-/* roma rakamı yapmak için */
+/* roma rakamı yapmak için 
 ol.c {
     list-style-type: upper-roman;
 }
-/*harf yapmak için*/
+/*harf yapmak için*
+
+
 ol.d {
     list-style-type: lower-alpha;
-}
+}  */
 
-/*madde dışarıda olsun */
+
+/*madde dışarıda olsun 
 ul.f {
     list-style-position: outside;
 }
 
-/*madde içeride olsun*/
+/*madde içeride olsun
 ul.g {
     list-style-position: inside;
-}
+}*/
 
 /* madde özelliğini kaldırma */
-ul.demo {
+
+
+/* ul.demo {
     list-style-type: none;
     margin:none;
     padding:none;
@@ -54,7 +59,7 @@ li.abc2{
     padding: 5px;
     margin-left: 35px;
 }
-
+Tabla oluşturmak [yazı stili kenarlık )
 #customers {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
@@ -65,10 +70,11 @@ li.abc2{
 #customers td, #customers th {
     border: 1px solid #ddd;
 }
-
+Hangi satır renkli olacak
 #customers tr:nth-child(even) {
     background-color: moccasin;
 }
+arka plan rengi
 #customers tr:hover {
     background-color: #ddd;
 }
@@ -109,4 +115,41 @@ li.abc2{
    
 }
 #x th { background-color: darksalmon;
+} */
+
+/*tablo genişliği ayarlamak 
+table,th,td{
+    border:1px solid;*/
+
+
+
+/*kenarlıklarını daraltmak
+table {
+    border-collapse:collapse;
+
+/*yalınzca etrafında kenarlık 
+table {
+    width: 100%;
+    border: 2px solid; }
+/*ekranı tüm içeriği görüntüleyemecek kadar büyük olması durumunda*/
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: bisque;
+/* linkleri yan yana yazmak */
+}
+li {
+    display:inline
+}
+/* satırlar arası bloak koyma */
+span {
+    display: block;
 }
