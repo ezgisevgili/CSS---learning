@@ -1,25 +1,18 @@
 
+/*sırasız listede daire yapmak */
 
-/*a:hover 
-    color:tomato */
-
-/* a:link {
-    color:red;
-    text-decoration: underline;
-    background-color: aqua;
-} */
-
-a:visited, a:link{
-    color:white;
-    background-color: coral;
-    padding:15px 25px;
-    text-align: center;
-    display: inline-block;}
-
-a.two:link { color:#ff0000;}
-a.two:visited { color:#ff0000;}
-a.two:hover { font-size: 150%;
+ul.a { list-style-type: circle;
 
 }
 
+/* sırasır listede kare yapmak */
 
+ul.b { list-style-type: square;}
+/* roma rakamı yapmak için */
+ol.c {
+    list-style-type: upper-roman;
+}
+/*harf yapmak için*/
+ol.d {
+    list-style-type: lower-alpha;
+}
