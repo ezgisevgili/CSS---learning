@@ -153,3 +153,64 @@ li {
 span {
     display: block;
 }
+/* konum statik 
+div.static {
+    position:static;
+    border: 3px solid #73AD21;
+}
+
+div.relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border:3px solid #73AD21
+}
+div.absolute {
+    position :absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+} 
+
+.container {
+    position:fixed;
+}
+
+
+img {
+    width: 50%;
+    height: auto;
+    opacity:0.6;*/
+}
+
+img {
+    position: absolute;
+    left:0px;
+    top: 0px;
+    z-index:
+}
+
+.metin{
+    background-color: chocolate;
+    width: 200px;
+    height: 65px;
+    border:1px solid;
+    overflow: visible;
+}
+.metin2 {
+    background-color: chartreuse;
+    width: 500px;
+    height: 65px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.metin1 {
+    background-color: darksalmon;
+    width: 200px;
+    height: 100px;
+    border:1px solid black;
+    overflow: auto;
+}
