@@ -17,7 +17,17 @@ ol.d {
     list-style-type: lower-alpha;
 }
 
-/*listede imge özelliği */
-ul.e {list-style-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUV0etcxHkMiCpFZkrBmikmyDamHTKJLOFW0ZmrD1asw&s'); width: 5px;
-
+/*madde dışarıda olsun */
+ul.f {
+    list-style-position: outside;
 }
+
+/*madde içeride olsun*/
+ul.g {
+    list-style-position: inside;
+}
+
+
+
+
+
