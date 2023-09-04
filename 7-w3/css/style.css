@@ -420,7 +420,7 @@ h1::before {
 h2::before {
   counter-increment: subsection;
   content: counter(section) "." counter(subsection) " ";
-}*/
+}
 
 *{box-sizing: border-box;}
 
@@ -470,4 +470,52 @@ body {
     text-align: center;
     background-color:lightsalmon;
     font-size:x-small;
+}
+
+
+h1 {
+  font-size: 60px;
+  }
+
+  p {
+    font-size: 25px;
+    line-height: 50px;
+  }
+  .button {
+    background-color: grey;
+    color:white
+  }
+  #div1 {
+    position: absolute;
+    left:50px;
+    width: calc (100%-100%);
+    border:1px solid black;
+    background-color: yellow;
+    padding: 5px;
+}*/
+
+#rcorners1 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+  
+
+#rcorners2 {
+  border-radius: 25px;
+  border:2px solid #73AD21;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+#rcorners3 {
+  border-radius: 25px;
+  background: url(paper.jfif);
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
 }

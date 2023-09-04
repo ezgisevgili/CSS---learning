@@ -1,0 +1,49 @@
+/*img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     
+}
+
+.center {
+    text-align: center;
+    padding: 10px 20px;
+    width: 
+    background-color:rgb(253, 242, 242);
+}
+
+#buton { width: 300px;
+
+}
+/*
+.container {
+    background-color: aquamarine;
+    width:30%;
+    text-align: center;
+}
+.ex { background-color: aquamarine;
+    width: 10%;
+    text-align: center;
+    padding: 0px;
+    position: relative;
+    left: 350px;
+    width: 100px;
+    
+
+    * {
+        box-sizing: border-box;
+      }
+      
+      .box {
+        float: left;
+        width: 33.33%;
+        padding: 50px;
+      }
+      
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }*/
+
+
