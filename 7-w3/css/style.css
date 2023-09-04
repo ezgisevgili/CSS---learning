@@ -494,6 +494,7 @@ h1 {
     padding: 5px;
 }*/
 
+/* the calc ,işlevi
 #rcorners1 {
   border-radius: 25px;
   background: #73AD21;
@@ -517,5 +518,108 @@ h1 {
   background-repeat: repeat;
   padding: 20px;
   width: 200px;
+  height: 150px; 
+}*/
+ 
+/* kenarları yuvarlak yapmak 
+#rcorners1 {
+  border-radius: 15px 50px 30px 5px;
+  background:chocolate ;
+  padding: 20px;
+  width: 200px;
   height: 150px;
+}
+
+#rcorners2 {
+  border-radius: 15px 50px 30px;
+  background: darkolivegreen;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+
+#rcorners3 {
+  border-radius: 15px 50px;
+  background:blueviolet;
+  padding: 20px; 
+  width: 200px;
+  height: 150px; 
+} 
+
+#rcorners4 {
+  border-radius: 15px;
+  background: #73AD21;
+  padding: 20px; 
+  width: 200px;
+  height: 150px; 
+} 
+
+#borderimg {
+  border:100px solid transparent;
+  padding: 100px;
+  border-image:url(border.png);
+}
+
+#borderimg1 {
+  border:50px solid transparent;
+  padding: 15px;
+  border-image: url(border2.jfif) 50 round
+}
+
+#borderimg2 {
+  border:30px solid transparent;
+  padding: 15px;
+  border-image: url(border2.jfif) 20 round;
+}
+
+#borderimg3 {
+  border:10px solid transparent;
+  padding: 15px;
+  border-image: url(border2.jfif) 30% round;
+}
+
+#example1 {
+  background-image: url(baykuş.jfif),url(paper.jfif) ;
+  background-position:right bottom, left top ;
+  background-repeat: no-repeat, repeat;
+  padding: 20px;
+
+}*/
+#example1 {
+  border:1px solid black;
+  background:url(baykuş.jfif) ;
+  background-repeat: no-repeat;
+  background-size: 100px 300px;
+  padding: 10px;
+}
+#example2 {
+  border:1px solid black;
+  background:url(baykuş.jfif);
+  background-repeat: no-repeat;
+  padding: 15px;
+}
+/* arka plan resmini içerir */
+.div1 {
+  border:1px solid black;
+  height: 130px;
+  width: 160px;
+  background: url(baykuş.jfif);
+ background-repeat: no-repeat;
+ background-size: contain;
+}
+/*arka plan kapak */
+.div2 {
+  border:1px solid black;
+  height: 120px;
+  width: 150px;
+  background:url(baykuş.jfif);
+  background-size: cover;
+}
+
+.div3 {
+  border: 1px solid black;
+  height: 120px;
+  width: 150px;
+  background: url(baykuş.jfif);
+  background-repeat: no-repeat;
 }
