@@ -774,7 +774,7 @@ div.card {
     overflow: visible;
   }*/
   
-    
+  /*  
 p.test1 {
   writing-mode: horizontal-tb;
 }
@@ -785,4 +785,162 @@ span.test2 {
 
 p.test2 {
   writing-mode: vertical-lr;
+}*/
+/*
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+  font-weight:bold;
 }
+
+* {
+  font-family: myFirstFont;
+}*/
+/*
+div {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border:1px solid black;
+}*/
+
+/* div elementini çevirmek 
+div#myDiv {
+  transform: rotate(20deg);
+}*/
+
+/* div ögesi eğilir
+div {width: 300px;
+    height: 100px;
+    background-color:palevioletred;
+    border:1px solid black;
+}
+
+div#myDiv{
+  transform: skewX(20deg);
+}*/
+/*
+div{width: 300px;
+height: 100px;
+background-color: aquamarine;
+border:1px solid black;}
+
+div#myDiv1 {
+  transform: matrix(1, -0.3, 0, 1, 0, 0);
+}
+
+
+div#myDiv2 {
+  transform: matrix(1, 0, 0.5, 1, 150, 0);
+}*/
+
+/*
+div {
+  width: 300px;
+  height: 100px;
+  background-color:cornflowerblue;
+  border:1px solid black;
+}
+#myDiv {transform: rotateY(150deg)}*/
+
+/*geçiş özelliği
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+}
+div:hover {
+  width: 300px;
+}*/
+/*
+div {
+  width: 100px;
+  height: 100px;
+  background: pink;
+  transition: width 2s;
+}
+#div1 {transition-timing-function: linear;}
+#div2 {transition-timing-function: ease;}
+#div3 {transition-timing-function: ease-in;}
+#div4 {transition-timing-function: ease-in-out;}
+#div4 {transition-timing-function: ease-in-out;}
+div:hover {
+  width: 300px;
+}*/
+
+/* 1s geçiş gecikmesi
+div {
+  width: 100px;
+  height: 100px;
+  background:burlywood;
+  transition: width 3s;
+  transition-delay: 1s;
+}
+div:hover {width: 300px;}*/
+
+/*
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+div:hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(180deg);
+}*/
+/* animasyon renk değiştirme 
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+@keyframes example {
+  0%{background-color:red;}
+  25%{background-color:yellow;}
+  50% {background-color:blue;}
+  100%{background-color:green;}
+}*/
+
+
+/*Animasyon oynatma
+div {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:purple; left:0px; top:200px;}
+  100% {background-color:pink; left:0px; top:0px;}
+}*/
+
+
+/*animasyon geciktirme
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 5s;
+}
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}*/
