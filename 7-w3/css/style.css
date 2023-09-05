@@ -1045,3 +1045,147 @@ img {border:1px solid #dddd;
   img {
     opacity: 0.5;
   }*/
+
+
+
+  /*foroğraflara efekt
+  body {
+    background-color: white;
+  }
+  img {
+    width: 33%;
+    height: auto;
+    float: left;
+    max-width: 235px;
+  }
+
+  .blur {filter: blur(4px);}
+  .brightness {filter: brightness(250%);}
+  .contrast {filter: contrast(180%);}
+  .grayscale {filter: grayscale(100%);}
+.huerotate {filter: hue-rotate(180deg);}
+.invert {filter: invert(100%);}
+.opacity {filter: opacity(50%);}
+.saturate {filter: saturate(7);}
+.sepia {filter: sepia(100%);}
+.shadow {filter: drop-shadow(8px 8px 10px green);}*/
+
+/*
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+
+.text {
+  color:white;
+  font-size: 20px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%,-50%);
+}*/
+
+/*
+.container {
+  position: relative;
+  width: 50%;
+}
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.middle {transition: .5s;
+opacity: 0;
+position: absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+-ms-transform: translate(-50%,-50%);
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color:white;
+  font-size: 16px;
+  padding: 16px 32px;
+}*/
+/*görüntüyü yan çevirir
+img:hover {
+  transform: scalex(-1);
+}*/
+
+/*görüntüyü yansıtma
+img {
+  -webkit-box-reflect:below 20px
+}*/
+/*
+.mask1 {
+  -webkit-mask-image: url(w3schools-logo-icon.png);
+  mask-image:url(w3schools-logo-icon.png);
+  -webkit-mask-repeat;no-repeat;
+  mask-repeat: no-repeat;
+}*/
+/*
+p {
+  font-size: 20px;
+  padding: 20px;
+  color:black;
+}
+.mask1 {
+  max-width: 600px;
+  height: 350px;
+  overflow-y: scroll;
+  background:url(manzara.jfif);
+  -webkit-mask-image: linear-gradient(black, transparent);
+  mask-image: linear-gradient (black, transparent);
+}*/
+/*
+.pagination: {
+  display:first;
+}
+.pagination a {
+  color:black;
+  float:left;
+  padding: 8px 16px;
+  text-decoration: ;
+} 
+.pagination a.active {
+  background-color: red;
+  color:white;
+}
+.pagination a:hover:not(.active) {background-color: red}*/
+
+.newspaper {
+  column-count: 3;
+}
