@@ -1185,7 +1185,86 @@ p {
   color:white;
 }
 .pagination a:hover:not(.active) {background-color: red}*/
-
+/*
 .newspaper {
   column-count: 3;
+}
+
+.newspaper2 {
+  column-count: 3;
+  column-gap: 40px;
+  column-rule-style: solid;
+}
+div {
+  border:2px solid;
+  padding: 20px;
+  width: 300px;
+  resize:horizontal;
+  overflow: auto;
+
+}*/
+
+/*
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff; 
+}
+
+body {
+  background-color: var(--blue);
+}
+
+h2 {
+  border-bottom: 2px solid var(--blue);
+}
+
+.container {
+  color: var(--blue);
+  background-color: var(--white);
+  padding: 15px;
+}
+
+button {
+  background-color: var(--white);
+  color: var(--blue);
+  border: 1px solid var(--blue);
+  padding: 5px;
+}*/
+
+/*
+body {
+  background-color: pink;
+}
+
+@media screen and (min-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+}*/
+
+* {box-sizing: border-box;}
+.topnav {
+  overflow: hidden;
+  background-color:lightcoral;
+}
+
+.topnav a{
+  float: left;
+  display: block;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color:black;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
 }

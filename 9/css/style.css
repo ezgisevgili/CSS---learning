@@ -1,0 +1,19 @@
+
+
+
+.newspaper {
+    column-count: 3;
+  } /*araya işaret çizgi koymak için.newspaper2 {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: solid;
+  }*/
+
+  div {
+    border:2px solid;
+    padding: 20px;
+    width: 300px;
+    resize:horizontal;
+    overflow: auto;
+  
+  }
