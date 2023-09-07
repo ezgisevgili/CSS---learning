@@ -1241,7 +1241,7 @@ body {
     background-color: lightgreen;
   }
 }*/
-
+/*
 * {box-sizing: border-box;}
 .topnav {
   overflow: hidden;
@@ -1266,5 +1266,98 @@ body {
   .topnav a {
     float: none;
     width: 100%;
+  }*/
+
+
+
+  /*efekti görmek için tarayıcı penceresi yeniden boyutlandırılır
+  * {
+    box-sizing: border-box;
   }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 32px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }*/
+
+  *{box-sizing: border-box;}
+
+
+  body { font-family: arial;
+    marign:0
 }
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background:#1abc9c;
+
+}
+.navbar a{
+  display: flex;
+  background-color:darkkhaki;}
+.navbar a:hover {
+  background-color: darkolivegreen;
+  color:black;
+}
+.navbar a {color:white;
+padding: 14px 20px;
+text-decoration: none;
+text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap:wrap;
+
+}
+
+.side { flex:30%;
+background-color: powderblue;
+padding: 20px;}
+
+.main {
+  flex:70%;
+  background-color: white;
+  padding: 20px;
+}
+.fakeimg {background-color: #aaa;
+width: 100%;
+padding: 20px;}
+
+.footer {padding: 20px;
+text-align: center;
+background-color: #aaa;}

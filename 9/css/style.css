@@ -17,3 +17,54 @@
     overflow: auto;
   
   }
+
+
+
+  *{box-sizing: border-box;}
+
+
+  body { font-family: arial;
+    marign:0
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background:#1abc9c;
+
+}
+.navbar a{
+  display: flex;
+  background-color:darkkhaki;}
+.navbar a:hover {
+  background-color: darkolivegreen;
+  color:black;
+}
+.navbar a {color:white;
+padding: 14px 20px;
+text-decoration: none;
+text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap:wrap;
+
+}
+
+.side { flex:30%;
+background-color: powderblue;
+padding: 20px;}
+
+.main {
+  flex:70%;
+  background-color: white;
+  padding: 20px;
+}
+.fakeimg {background-color: #aaa;
+width: 100%;
+padding: 20px;}
+
+.footer {padding: 20px;
+text-align: center;
+background-color: #aaa;}
