@@ -1,4 +1,4 @@
-/*img {
+img {
      display: block;
      margin-left: auto;
      margin-right: auto;
@@ -15,7 +15,7 @@
 #buton { width: 300px;
 
 }
-/*
+
 .container {
     background-color: aquamarine;
     width:30%;
@@ -44,6 +44,6 @@
         content: "";
         clear: both;
         display: table;
-      }*/
+      }
 
 
